@@ -1,7 +1,7 @@
 /* ==========================================================================
    SHAZAY — main.js
    Lightweight, dependency-free interactions:
-   header state, mobile nav, scroll reveals, subtle parallax, newsletter form
+   header state, mobile nav, scroll reveals, subtle parallax
    ========================================================================== */
 (function () {
   'use strict';
@@ -194,21 +194,6 @@
       }
     }, { passive: true });
   });
-
-  /* ---- newsletter form (static demo — no backend) ---- */
-  var form = document.getElementById('subscribeForm');
-  var note = document.getElementById('subscribeNote');
-
-  if (form && note) {
-    form.addEventListener('submit', function (e) {
-      e.preventDefault();
-      var input = form.querySelector('input[type="email"]');
-      if (input && input.value) {
-        note.textContent = 'Дякуємо! Перевір свою поштову скриньку, щоб підтвердити підписку.';
-        form.reset();
-      }
-    });
-  }
 
   /* ---- payment requisites: open from footer link + copy buttons ---- */
   var req = document.getElementById('rekvizyty');

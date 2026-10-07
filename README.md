@@ -14,6 +14,8 @@ shazay-ua/
 ├── index.html                  — головна сторінка
 ├── oplata-i-dostavka.html      — умови оплати і доставки
 ├── povernennia-ta-obmin.html   — умови повернення та обміну
+├── polityka-konfidentsiinosti.html — політика конфіденційності
+├── umovy-vykorystannia.html    — умови використання
 ├── style.css
 ├── main.js
 ├── payment-links.js            — посилання на оплату LiqPay для кнопок «Купити»
